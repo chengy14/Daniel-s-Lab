@@ -8,8 +8,8 @@ cmd.do("refresh_wizard")
 cmd.get_wizard().set_mode("GLN")
 cmd.get_wizard().do_select("6/")
 
-# Select the rotamer
-cmd.frame(10)
+# Select the default rotamer
+cmd.frame(1)
 
 # Apply the mutation
 cmd.get_wizard().apply()
