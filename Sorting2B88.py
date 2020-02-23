@@ -57,7 +57,7 @@ Position32=df.loc[141:150,:]
 sort32=Position32.sort_values(by=['Total Energy'] )
 Position35=df.loc[151:160,:]
 sort35=Position35.sort_values(by=['Total Energy'] )
-Position36=df.loc[161:170,:]
+Position36=df.loc[161:171,:]
 sort36=Position36.sort_values(by=['Total Energy'] )
 
 
@@ -80,20 +80,6 @@ df_sort.to_csv('2b88Foldx_sorting.csv')
 
 df_sort.to_excel('2b88Foldx_sorting.xlsx')
 
-
-# In[10]:
-
-
-sort28
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
 
 
 
